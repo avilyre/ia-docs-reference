@@ -32,6 +32,10 @@ Use this index before making changes. Load only the domains that match the task.
 - Purpose: Coding conventions, folder ownership, patterns, API/content conventions, and styling implementation rules.
 - When to use: Any code edit, refactor, new feature, or file placement decision.
 
+- Path: `.opencode/reference/clean-code.md`
+- Purpose: Global code hygiene rules (English-only, no comments, no unused code, no special characters, one-character names, fetch try/catch handling).
+- When to use: Any code edit or code review.
+
 - Path: `.opencode/reference/important-notes.md`
 - Purpose: Operational constraints, environment requirements, runtime caveats, cache behavior, and high-impact safety notes.
 - When to use: API/env changes, deployment/runtime behavior work, or risky edits touching data flow.
